@@ -2,7 +2,7 @@
 # This playbook installs and enables IIS on Windows hosts
 
 - name: Install IIS
-  hosts: all
+  hosts: win
   gather_facts: false
   tasks:
     - name: Install IIS
